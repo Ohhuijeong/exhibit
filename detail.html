@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>작품 상세 | EXHIBIT</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/detail.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="container nav">
+            <a href="index.html" class="logo">EXHIBIT</a>
+            <div class="gnb">
+                <a href="index.html">HOME</a>
+                <a href="gallery.html">갤러리</a>
+                <a href="upload.html">작품등록</a>
+                <a href="guide.html">이용안내</a>
+                <span id="account-nav">
+                    <a href="login.html">로그인</a>
+                </span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container section">
+        <p class="sub-title">ARTWORK</p>
+        <p id="detail-status" role="status" aria-live="polite">작품 정보를 불러오는 중...</p>
+        <section id="detail-content" class="detail-grid" aria-labelledby="detail-title" hidden>
+            <div id="detail-image-wrap"></div>
+            <div class="detail-info">
+                <h1 id="detail-title"></h1>
+                <p id="detail-artist" class="muted"></p>
+                <p id="detail-description" class="detail-description"></p>
+                <div class="order-row">
+                    <span>구매 가격</span>
+                    <strong id="detail-price"></strong>
+                </div>
+                <div class="order-row">
+                    <span>월 대여 가격</span>
+                    <strong id="detail-rental-price"></strong>
+                </div>
+            </div>
+            <a class="btn detail-back" href="gallery.html">갤러리로 돌아가기</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            EXHIBIT &middot; javascript + supabase 포트폴리오 &middot; 실제 결제/예약 서비스가 아닙니다.
+        </div>
+    </footer>
+</body>
+
+</html>
