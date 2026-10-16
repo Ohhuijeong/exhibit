@@ -72,7 +72,7 @@ exhibit/
 | image_url | text | 이미지 공개 URL |
 
 ### 2. Storage
-- 버킷 이름 : `exhibition_images` (**Publick** 버킷)
+- 버킷 이름 : `exhibition_images` (**Public** 버킷)
 
 ## 3. 보안 (RLS)
 `config.js`의 키는 브라우저에 노출되는 **publishable(anon) key**입니다.
