@@ -5,8 +5,7 @@ HTML &middot; CSS &middot; Javascript(ES Modules)와 **Supabase**(Auth / Databas
 
 ⚠ 실제 결제/예약 서비스가 아닙니다.
 
-** Demo ** : 깃 배포 주소 (배포 후 주소 교체)
-
+** Demo ** : https://ohhuijeong.github.io/exhibit/
 ---
 
 ## 주요 기능
@@ -19,7 +18,7 @@ HTML &middot; CSS &middot; Javascript(ES Modules)와 **Supabase**(Auth / Databas
 
 ## 작품 등록 상세
 - JPG / PNG / WEBP 형식만 허용, 최대 **3MB**
-- 이미지는 `회원ID / 랜덤UUID.확장자` 경로로 Storage에 등록
+- 이미지는 `회원ID / 랜덤UUID.확장자` 경로로 Storage에 저장
 - DB 저장에 실패하면 업로드한 이미지를 자동으로 삭제(롤백)
 
 ---
