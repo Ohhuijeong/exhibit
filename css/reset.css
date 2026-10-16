@@ -1,0 +1,98 @@
+@charset "utf-8";
+@import url(../css/fonts.css);
+
+html,
+head,
+body,
+ol,
+ul,
+li,
+p,
+div,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+tr,
+td,
+th,
+tbody,
+thead,
+tfoot,
+caption,
+header,
+nav,
+section,
+article,
+aside,
+figure,
+figcaption,
+footer,
+address,
+form,
+fieldset,
+legend,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+address,
+em,
+i {
+    font-style: normal;
+}
+
+table {
+    border-collapse: collapse;
+    /* td 간의 간격을 없앰 */
+}
+
+/* 텍스트 블라인드 */
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    /* 보여줄 영역만 남기고 나머지 부분은 자르는 명령 */
+    white-space: nowrap;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+}
